@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Camping Data Dashboard
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./styles/campingDataDashboard.css" />
+    </head>
+
+    <body>
+
+    <!--- Navigation Bar /> -->
+        <header class="main-header">
+            <nav>
+            </nav>
+        </header>
+
+
+    <!--- Main Body /> -->
+        <div class="main-content">
+        <h1 class="homeTitle">Camping in the Adirondacks Data Dashboard</h1>
+        <h3 class="intro">Welcome to the Camping in the Adirondacks Data Dashboard! The data displayed on this site were pulled from...</h3>
+            <h4 class="instructions">Please select which campsite amenities in the menus below to update the campsite map.</h4>
+        <div class="row">
+            <div class="varCol">
+            <h4 class="variableTitle">Campsite Ammenities</h4>
+                <div class="campsiteAmmenities">
+                    <div class="selectPotableWater">
+                    <p id=potableWater>Potable Water</p>
+                        <select name="selectPotableWater" id="selectPotableWater">
+                            <option disabled hidden selected>Select</option>
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                        <div id="resultPotableWater"></div>
+                    </div>
+
+                    <div class="selectFireRing">
+                        <p id=fireRing>Fire Ring</p>
+                            <select name="selectFireRing" id="selectFireRing">
+                                <option disabled hidden selected>Select</option>
+                                <option value="no">No</option>
+                                <option value="yes">Yes</option>
+                            </select>
+                            <div id="resultFireRing"></div>
+                        </div>
+                    
+                        <div class="selectPetsAllowed">
+                            <p id=petsAllowed>Pets Allowed</p>
+                                <select name="selectPetsAllowed" id="selectPetsAllowed">
+                                    <option disabled hidden selected>Select</option>
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select>
+                                <div id="resultPetsAllowed"></div>
+                            </div>
+
+                            <div class="selectBathooms">
+                                <p id=bathrooms>Bathrooms</p>
+                                    <select name="selectPotableWater" id="selectBathooms">
+                                        <option disabled hidden selected>Select</option>
+                                        <option value="no">No</option>
+                                        <option value="yes">Yes</option>
+                                    </select>
+                                    <div id="resultBathroom"></div>
+                                </div>
+
+                                <div class="selectSecluded">
+                                    <p id=secluded>Secluded Campsites</p>
+                                        <select name="selectSecluded" id="selectSecluded">
+                                            <option disabled hidden selected>Select</option>
+                                            <option value="no">No</option>
+                                            <option value="yes">Yes</option>
+                                        </select>
+                                        <div id="resultSecluded"></div>
+                                    </div>
+
+            </div>
+
+            <div class="map">
+                <h4 class="mapTitle">Map of Adirondack Campsites</h4>
+            </div>
+            
+            <div class="vizCol">
+                <h4 class="graphsTitle">Graphs</h4>
+            </div>
+
+    <!--- Footer /> -->
+        <footer class="main-footer">
+            <div class="footer-inner">
+                <span>Copyright &copy; 2023 Bauer</span></br>
+    </body>
+</html>
+
