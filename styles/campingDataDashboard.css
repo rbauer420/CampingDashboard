@@ -14,9 +14,16 @@ body {
 }
 
 /**.main-content**/
+
+.main-header {
+    background-color: slategray;
+}
   
 .main-content {
-        background-color: lightslategray;
+        background: url("bonfire.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         padding: 0 2rem;
   }
 
@@ -159,6 +166,7 @@ select {
     margin-top: auto;
     text-align: center;
     color: black;
+    width: 100%;
 }
 
 
